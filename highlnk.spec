@@ -7,7 +7,7 @@ License:	GPL v2
 Group:		Applications/Console
 Source0:	http://www.thpinfo.com/highlnk/%{name}-%{version}.tar.gz
 # Source0-md5:	8a3364e84eac8c3f908a82951d9437b7
-URL:		http://www.thpinfo.com
+URL:		http://www.thpinfo.com/highlnk/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -25,8 +25,8 @@ CDs/DVDs bez kompresji.
 %setup -q
 
 %build
-%{__make}\
-	 FLAGS="%{rpmcflags}"
+%{__make} \
+	FLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
