@@ -1,5 +1,5 @@
 Summary:	Small tool to save space on read-only partitions and CDs/DVDs
-Summary(pl):	Proste narzêdzie pozwalaj±ce na zaoszczêdzenie miejsca na partycjach, CDs/DVDs
+Summary(pl):	Proste narzêdzie pozwalaj±ce na zaoszczêdzenie miejsca na partycjach i na CD/DVD
 Name:		highlnk
 Version:	0.2
 Release:	1
@@ -18,8 +18,8 @@ You can get more onto CDs/DVDs without compression.
 %description -l pl
 HighLnk jest ma³ym, ale potê¿nym narzêdziem do 'oszczêdzania' miejsca
 na partycjach tylko do odczytu oraz na CDs/DVDs poprzez tworzenie
-twardych dowi±zañ. Daje to mo¿liwo¶æ pobrania wiêcej danych na
-CDs/DVDs bez kompresji.
+twardych dowi±zañ. Daje to mo¿liwo¶æ pobrania wiêcej danych na CD/DVD
+bez kompresji.
 
 %prep
 %setup -q
