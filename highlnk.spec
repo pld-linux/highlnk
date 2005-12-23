@@ -26,6 +26,7 @@ bez kompresji.
 
 %build
 %{__make} \
+	CC="%{__cc}" \
 	FLAGS="%{rpmcflags}"
 
 %install
