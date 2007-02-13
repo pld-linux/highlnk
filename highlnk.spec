@@ -1,5 +1,5 @@
 Summary:	Small tool to save space on read-only partitions and CDs/DVDs
-Summary(pl.UTF-8):   Proste narzędzie pozwalające na zaoszczędzenie miejsca na partycjach i na CD/DVD
+Summary(pl.UTF-8):	Proste narzędzie pozwalające na zaoszczędzenie miejsca na partycjach i na CD/DVD
 Name:		highlnk
 Version:	0.2
 Release:	1
